@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import adventurer from '../../images/adventurer.jpg';
 import './style.css';
 
 const CarouselContainer = () => {
