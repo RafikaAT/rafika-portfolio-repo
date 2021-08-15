@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { ContactMe, About, Home, Projects, NotFound } from './pages';
-import { Navbar } from './layout';
+import { Navbar, Footer } from './layout';
 
 const App = () => {
   return (
@@ -24,6 +24,7 @@ const App = () => {
           <NotFound />
         </Route>
       </Switch>
+      <Footer />
     </>
   );
 };

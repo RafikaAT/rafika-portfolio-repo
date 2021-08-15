@@ -1,0 +1,80 @@
+#introductory-image {
+  display: block;
+  width: 200px;
+  border: 8px solid #f3f3f3;
+  border-radius: 200px;
+}
+
+.typewriter {
+  padding: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .typewriter {
+    flex-direction: column;
+  }
+  #introductory-image {
+    margin: auto;
+  }
+}
+
+.Rafika-image {
+  animation: fade-down 1s ease-in;
+}
+.Rafika-introduction {
+  animation: fade-right 1s ease-in;
+}
+#intro-para {
+  animation: fade-up 1s ease-in;
+}
+#Greeting {
+  animation: fade-left 1s ease-in;
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-left {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
