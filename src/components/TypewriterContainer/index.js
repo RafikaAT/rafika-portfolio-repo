@@ -1,13 +1,14 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './style.css';
+import myImage from '../../images/intro-image.jpeg';
 
 // Need to set loop for continuous typewriting
 const TypewriterContainer = () => {
   return (
     <div className="typewriter">
       <div className="Rafika-image">
-        <img id="introductory-image" src="../../images/intro-image.jpeg" />
+        <img id="introductory-image" src={myImage} />
       </div>
       <div className="Rafika-introduction-container">
         <h1 id="Greeting">Hi, I'm Rafika</h1>
