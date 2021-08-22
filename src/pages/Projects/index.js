@@ -43,7 +43,7 @@ const Projects = () => {
       {projectArray.map((item, i) => (
         <div className="project-info-container" key={i + 1}>
           <div className="column-1">
-            <img src={item.image} />
+            <img className="project-images" src={item.image} />
           </div>
           <div className="column-2" id={`item-${item.id}`}>
             <h3>{item.name}</h3>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './style.css';
-import myImage from '../../images/intro-image.jpeg';
+import myImage from '../../images/raf-icon.jpg';
 
 // Need to set loop for continuous typewriting
 const TypewriterContainer = () => {

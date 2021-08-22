@@ -1,16 +1,20 @@
-#introductory-image {
-  display: block;
-  width: 200px;
-  border: 8px solid #f3f3f3;
-  border-radius: 200px;
-}
-
 .typewriter {
   padding: 100px;
   text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+#introductory-image {
+  display: block;
+  width: 300px;
+  border: 8px solid #f3f3f3;
+  border-radius: 200px;
+}
+
+.Rafika-introduction-container {
+  width: 50%;
 }
 
 @media (max-width: 500px) {
