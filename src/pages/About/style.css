@@ -1,9 +1,149 @@
 #about-page {
   text-align: center;
   padding-top: 20px;
-  height: 100vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid red; */
+  padding-bottom: 10px;
 }
 
-span {
-  font-weight: bold;
+.box {
+  height: 0%;
+  width: 10%;
+  padding-bottom: 10%;
+  border: 2px dashed black;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: absolute; */
 }
+
+.appearing-box-1,
+.appearing-box-2,
+.appearing-box-3,
+.appearing-box-4 {
+  position: relative;
+  top: 250px;
+  left: 0px;
+  /* border: 1px solid red; */
+  display: none;
+  height: 0%;
+  width: 30%;
+  padding-bottom: 20%;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#box-1:hover + .appearing-box-1 {
+  display: block;
+  background-color: #5585ff;
+}
+
+#box-2:hover + .appearing-box-2 {
+  display: block;
+  background-color: #c260f0;
+}
+
+#box-3:hover + .appearing-box-3 {
+  display: block;
+  background-color: #ff0d81;
+}
+
+#box-4:hover + .appearing-box-4 {
+  display: block;
+  background-color: #f97e25;
+}
+
+#header1 {
+  color: #5585ff;
+}
+
+#header2 {
+  color: #c260f0;
+}
+
+#header3 {
+  color: #ff0d81;
+}
+
+#header4 {
+  color: #f97e25;
+}
+
+/* .tech-stack-icons, */
+.icon {
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tech-stack-icons {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.icon {
+  display: block;
+}
+
+.cardContainer {
+  padding-bottom: 10%;
+}
+
+.centred-headings {
+  text-align: center;
+  padding-bottom: 10px;
+}
+/* ATTEMPTING CARDS */
+
+/* TRYING TO GET BOXES TO OVERLAP */
+.box-headers {
+  font-size: 2.5vh;
+  /* margin: 0 auto;
+  position: absolute;
+  top: 45%;
+  display: block;
+  text-align: center; */
+}
+
+/* #box-1 {
+  position: absolute;
+  left: 75px;
+  top: 150px;
+  width: 17%;
+  padding-bottom: 17%;
+}
+#box-2 {
+  position: absolute;
+  left: 250px;
+  top: 300px;
+  width: 32%;
+  padding-bottom: 32%;
+}
+#box-3 {
+  position: absolute;
+  left: 600px;
+  top: 120px;
+  width: 25%;
+  padding-bottom: 25%;
+}
+#box-4 {
+  position: absolute;
+  left: 880px;
+  top: 250px;
+  width: 22%;
+  padding-bottom: 22%;
+}
+
+@media (max-width: 500px) {
+  .about-page {
+    flex-direction: column;
+  }
+} */

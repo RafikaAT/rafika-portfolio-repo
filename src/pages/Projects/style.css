@@ -5,7 +5,7 @@
 #projects-page {
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 30%;
   height: 200vh;
 }
 
@@ -46,6 +46,7 @@
   /* display: block !important;
   flex-direction: column; */
   transition: opacity 2000ms, visibility 2000ms;
+  transition: all 0.5s ease;
   position: relative;
   display: block;
   visibility: visible;
